@@ -6,13 +6,15 @@ _(Last update: 2021.01.29)_
 
 ## Architecture
 - [[PSGEL266] - SAS Viya 4: Architecture](https://eduvle.sas.com/course/view.php?id=1980)
-- [[PSGEL263] - SAS Viya 4: Advanced Topics in Authentication](https://eduvle.sas.com/course/view.php?id=1981)
 
 ## Deployment
 - [[PSGEL255] - Deploying SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1968)
 
 ## Administration
 - [[PSGEL260] - SAS Viya 4: Administration](https://eduvle.sas.com/course/view.php?id=1974)
+
+## Security
+- [[PSGEL263] - SAS Viya 4: Advanced Topics in Authentication](https://eduvle.sas.com/course/view.php?id=1981)
 
 ## Data Management
 - [[PSGEL261] - SAS Viya 4: Data Management](https://eduvle.sas.com/course/view.php?id=1975)
