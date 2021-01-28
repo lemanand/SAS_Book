@@ -12,9 +12,9 @@
 - [[PSGEL255] - Deploying SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1968)
 
 ## Data Management
-- [SAS Viya 4: Data Management](https://eduvle.sas.com/course/view.php?id=1975)
-- [Applying DevOps Principles to SAS Viya Data Management](https://eduvle.sas.com/course/view.php?id=1982)
-- [Using SAS Intelligent Decisioning on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1978&section=1)
+- [[PSGEL261] - SAS Viya 4: Data Management](https://eduvle.sas.com/course/view.php?id=1975)
+- [[PSGEL283] - Applying DevOps Principles to SAS Viya Data Management](https://eduvle.sas.com/course/view.php?id=1982)
+- [[PSGEL267] - Using SAS Intelligent Decisioning on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1978&section=1)
 
 ## Visualization | Analytics
 - [Designing Reports Using SAS Visual Analytics on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1971)
