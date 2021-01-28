@@ -1,4 +1,4 @@
-## _SAS Viya 4 - GEL Training_
+# _SAS Viya 4 - GEL Training_
 _(Last update: 2021.01.29)_
 
 ### Core Topics:
