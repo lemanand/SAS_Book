@@ -4,11 +4,11 @@
 - [[PSGEL273] - SAS Viya 4: Core Topics on Architecture, Installation, Data Management, Administration, Visualization, Programming, and Analytics](https://eduvle.sas.com/course/view.php?id=1977)
 
 ## Administration
-- [SAS Viya 4: Administration](https://eduvle.sas.com/course/view.php?id=1974)­­­­­
+- [[PSGEL260] - SAS Viya 4: Administration](https://eduvle.sas.com/course/view.php?id=1974)­­­­­
 
 ## Architecture | Deployment
-- [SAS Viya 4: Architecture](https://eduvle.sas.com/course/view.php?id=1980)
-- [SAS Viya 4: Advanced Topics in Authentication](https://eduvle.sas.com/course/view.php?id=1981)
+- [[PSGEL266] - SAS Viya 4: Architecture](https://eduvle.sas.com/course/view.php?id=1980)
+- [[PSGEL263] - SAS Viya 4: Advanced Topics in Authentication](https://eduvle.sas.com/course/view.php?id=1981)
 - [[PSGEL255] - Deploying SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1968)
 
 ## Data Management
