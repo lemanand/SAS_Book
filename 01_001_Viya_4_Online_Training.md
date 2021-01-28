@@ -9,7 +9,7 @@
 ## Architecture | Deployment
 - [SAS Viya 4: Architecture](https://eduvle.sas.com/course/view.php?id=1980)
 - [SAS Viya 4: Advanced Topics in Authentication](https://eduvle.sas.com/course/view.php?id=1981)
-- [Deploying SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1968)
+- [[PSGEL255] Deploying SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1968)
 
 ## Data Management
 - [SAS Viya 4: Data Management](https://eduvle.sas.com/course/view.php?id=1975)
