@@ -19,6 +19,6 @@
 ## Visualization | Analytics
 - [[PSGEL277] - Designing Reports Using SAS Visual Analytics on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1971)
 - [[PSGEL271] - Model Operations Using SAS Model Manager on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1973)
-- [Using SAS Visual Forecasting on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1976)
-- [Programming with CAS on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1979)
-- [Designing Chatbots Using SAS Conversation Designer on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1983)
+- [[PSGEL271] - Using SAS Visual Forecasting on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1976)
+- [[PSGEL268] - Programming with CAS on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1979)
+- [[SGEL282] - Designing Chatbots Using SAS Conversation Designer on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1983)
