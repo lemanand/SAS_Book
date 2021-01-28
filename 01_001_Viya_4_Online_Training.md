@@ -1,7 +1,7 @@
 ## _SAS Viya 4 Online Training_
 
 ### Core Topics:
-- [SAS Viya 4: Core Topics on Architecture, Installation, Data Management, Administration, Visualization, Programming, and Analytics](https://eduvle.sas.com/course/view.php?id=1977)
+- [[PSGEL273] - SAS Viya 4: Core Topics on Architecture, Installation, Data Management, Administration, Visualization, Programming, and Analytics](https://eduvle.sas.com/course/view.php?id=1977)
 
 ## Administration
 - [SAS Viya 4: Administration](https://eduvle.sas.com/course/view.php?id=1974)­­­­­
