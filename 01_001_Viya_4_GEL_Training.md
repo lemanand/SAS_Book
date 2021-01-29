@@ -24,6 +24,7 @@
 - [[PSGEL277] - Designing Reports Using SAS Visual Analytics on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1971)
 
 ## Analytics
+- [[PSGEL279] - Using SAS Visual Statistics and SAS Visual Data Mining and Machine Learning on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1989)
 - [[PSGEL271] - Model Operations Using SAS Model Manager on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1973)
 - [[PSGEL280] - Using SAS Visual Forecasting on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1976)
 - [[PSGEL268] - Programming with CAS on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1979)
@@ -31,3 +32,4 @@
 
 ## Others
 - [[PSGEL270] - SAS Viya: Migration and Promotion](https://eduvle.sas.com/course/view.php?id=1985)
+
