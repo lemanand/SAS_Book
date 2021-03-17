@@ -13,6 +13,7 @@
 ---
 
 <details><summary><b> Configuring Access to Analytic Store Model Files for MAS </b></summary>
+<br/>
 
 - Model’s analytic store (ASTORE) file must be accessible from the __/models/astores/viya__ directory path.
 - The Compute service extracts the ASTORE file from the analytic store’s CAS table in the ModelStore caslib and copies it to __/opt/sas/viya/config/data/modelsvr/astore__.
