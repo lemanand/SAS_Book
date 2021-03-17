@@ -23,7 +23,7 @@
 
 ---
 
-<details><summary><b> SAS ESP - Setup Setting </b></summary>
+<details><summary><b> Setup ESP Engine </b></summary>
 <br/>
 	
 - For example, in case of Local declaration in ~/.bash_profile add the following
@@ -36,12 +36,11 @@ export PATH=$PATH:$DFESP_HOME/bin
 ```bash
 source ~/.bash_profile
 ```
-
 </details>
 
 ---
 
-<details><summary><b>Load Data to CAS by SAS coding</b></summary>
+<details><summary><b> Load Data to CAS by SAS code </b></summary>
 <br/>
 
 - Load CSV file to CAS
@@ -65,12 +64,12 @@ cas mysess  terminate ;
 ```
 
 - [Six Easy Ways to Import Local SAS Data Sets into CAS (SAS Viya 3.5)](https://communities.sas.com/t5/SAS-Communities-Library/Six-Easy-Ways-to-Import-Local-SAS-Data-Sets-into-CAS-SAS-Viya-3/ta-p/671255)
-
 </details>
 
 ---
 
-### HMEQ Variable Settings in VDMML Pipeline
+<details><summary><b> Define HMEQ Variables in VDMML Pipeline </b></summary>
+<br/>
 
 Num | Variable | Type | Role | Level
 ----|---------|------|------|------
@@ -87,6 +86,7 @@ Num | Variable | Type | Role | Level
 12 | REASON | Character | Input | Nominal
 13 | VALUE | Numeric | Input | Interval
 14 | YOJ | Numeric | Input | Interval
+</details>
 
 ---
 
