@@ -37,4 +37,8 @@ source ~/.bash_profile
 
 ---
 
+### Load Data to CAS by SAS coding
 
+- [Six Easy Ways to Import Local SAS Data Sets into CAS (SAS Viya 3.5)](https://communities.sas.com/t5/SAS-Communities-Library/Six-Easy-Ways-to-Import-Local-SAS-Data-Sets-into-CAS-SAS-Viya-3/ta-p/671255)
+
+---
