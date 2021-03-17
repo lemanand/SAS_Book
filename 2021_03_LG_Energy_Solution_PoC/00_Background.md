@@ -23,8 +23,10 @@
 
 ---
 
-### SAS ESP - Setup Setting
-- For example, for Local declaration in ~/.bash_profile add the following
+<details><summary><b> SAS ESP - Setup Setting </b></summary>
+<br/>
+	
+- For example, in case of Local declaration in ~/.bash_profile add the following
 ```bash
 export DFESP_HOME=/opt/sas/viya/home/SASEventStreamProcessingEngine/6.2
 export LD_LIBRARY_PATH=$DFESP_HOME/lib:/opt/sas/viya/home/SASFoundation/sasexe
@@ -34,6 +36,8 @@ export PATH=$PATH:$DFESP_HOME/bin
 ```bash
 source ~/.bash_profile
 ```
+
+</details>
 
 ---
 
