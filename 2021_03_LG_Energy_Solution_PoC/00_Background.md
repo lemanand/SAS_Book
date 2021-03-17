@@ -118,9 +118,9 @@ Num | Variable | Type | Role | Level
 
 ---
 
-https://sirius.na.sas.com/Sirius/GSTS/ShowTrack.aspx?trknum=7612959561
-https://kb.iu.edu/d/bdny
-https://support.savvas.com/support/s/article/How-to-display-mixed-content-with-Google-Chrome-Internet-Explorer-or-Firefox-1408394589290
+- https://sirius.na.sas.com/Sirius/GSTS/ShowTrack.aspx?trknum=7612959561
+- https://kb.iu.edu/d/bdny
+- https://support.savvas.com/support/s/article/How-to-display-mixed-content-with-Google-Chrome-Internet-Explorer-or-Firefox-1408394589290
 
 
 
