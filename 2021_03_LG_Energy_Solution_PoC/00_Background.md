@@ -63,9 +63,11 @@ cas mysess  terminate ;
 
 ### HMEQ Variable Settings in VDMML Pipeline
 
-Variable | Type | Role | Level
----------|------|------|------
-BAD | Numeric | Target | Binary
+Num | Variable | Type | Role | Level
+----|---------|------|------|------
+1 | BAD | Numeric | Target | Binary
+2 | CLAGE | Numeric | Input | Interval
+3 | CLNO | Numeric | Input |Interval
 
 ---
 
