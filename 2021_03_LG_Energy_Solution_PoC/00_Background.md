@@ -38,7 +38,6 @@ source ~/.bash_profile
 ---
 
 <details><summary>Load Data to CAS by SAS coding</summary>
-	
 - Load CSV file to CAS
 ```sas
 cas mysess ;
@@ -59,7 +58,6 @@ cas mysess  terminate ;
 ```
 
 - [Six Easy Ways to Import Local SAS Data Sets into CAS (SAS Viya 3.5)](https://communities.sas.com/t5/SAS-Communities-Library/Six-Easy-Ways-to-Import-Local-SAS-Data-Sets-into-CAS-SAS-Viya-3/ta-p/671255)
-
 
 </details>
 
