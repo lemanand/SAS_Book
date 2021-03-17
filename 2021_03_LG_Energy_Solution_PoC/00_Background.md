@@ -15,7 +15,8 @@
 <br/>
 
 ### Environment in Azure
-- SAS Viya 3.5 SMP: http://52.231.154.112/
+- SAS Viya: http://52.231.154.112/
+- SAS ESP: http://52.231.154.112/SASEventStreamProcessingStudio/
 <br/>
 
 ### SAS ESP - Setup Setting
@@ -25,7 +26,8 @@ export DFESP_HOME=/opt/sas/viya/home/SASEventStreamProcessingEngine/6.2
 export LD_LIBRARY_PATH=$DFESP_HOME/lib:/opt/sas/viya/home/SASFoundation/sasexe
 export PATH=$PATH:$DFESP_HOME/bin
 ```
-- Then save and apply by executing
+- Then apply declaration by executing
 ```bash
 source ~/.bash_profile
 ```
+<br/>
