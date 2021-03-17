@@ -22,6 +22,7 @@
 ```bash
 mkdir -p /models/astores/
 ln -s /opt/sas/viya/config/data/modelsvr/astore /models/astores/viya
+chmod 777 -R /opt/sas/viya/config/data/modelsvr/astore /models/astores/viya
 ```
 
 - [Model Manager 15.3 Administration - Configuring Access to Analytic Store Model Files](https://go.documentation.sas.com/?cdcId=mdlmgrcdc&cdcVersion=15.3&docsetId=mdlmgrag&docsetTarget=p0t47w2wbv1resn1nifnebiq2qyh.htm&locale=en)
