@@ -17,9 +17,12 @@
 
 ---
 
-### Environment in Azure
+<details><summary><b> My SAS Environment on Azure </b></summary>
+<br/>
+	
 - SAS Viya: http://52.231.154.112/
 - SAS ESP: http://52.231.154.112/SASEventStreamProcessingStudio/
+</details>
 
 ---
 
