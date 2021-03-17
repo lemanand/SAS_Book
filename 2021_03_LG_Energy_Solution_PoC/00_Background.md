@@ -12,9 +12,20 @@
 
 ---
 
-### Related Documentation
+<details><summary><b> Configuring Access to Analytic Store Model Files for MAS </b></summary>
+
+- Model’s analytic store (ASTORE) file must be accessible from the __/models/astores/viya__ directory path.
+- The Compute service extracts the ASTORE file from the analytic store’s CAS table in the ModelStore caslib and copies it to __/opt/sas/viya/config/data/modelsvr/astore__.
+- Therefore, Mapping Analytic Store Directories by executing
+
+```bash
+mkdir -p /models/astores/
+ln -s /opt/sas/viya/config/data/modelsvr/astore /models/astores/viya
+```
+
 - [Model Manager 15.3 Administration - Configuring Access to Analytic Store Model Files](https://go.documentation.sas.com/?cdcId=mdlmgrcdc&cdcVersion=15.3&docsetId=mdlmgrag&docsetTarget=p0t47w2wbv1resn1nifnebiq2qyh.htm&locale=en)
 - [Viya 3.5 Administration - Configuring Access to Analytic Store Model Files](https://go.documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calmodels&docsetTarget=n10916nn7yro46n119nev9sb912c.htm&locale=en)
+</details>
 
 ---
 
@@ -94,3 +105,5 @@ Num | Variable | Type | Role | Level
 
 ---
 
+
+```
