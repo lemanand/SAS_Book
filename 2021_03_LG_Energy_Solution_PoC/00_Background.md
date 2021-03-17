@@ -33,6 +33,15 @@ chmod 777 -R /opt/sas/viya/config/data/modelsvr/astore /models/astores/viya
 
 ---
 
+<details><summary><b> Configuring CAS for Model Deployment (if needed) </b></summary>
+<br/>
+	
+- Access Viya -> Environment Management -> Publishing Destination -> CAS_Engine
+- Change CAS library value from Model -> Public
+</details>
+
+---
+
 <details><summary><b> My SAS Environment on Azure </b></summary>
 <br/>
 	
