@@ -38,6 +38,24 @@ source ~/.bash_profile
 ---
 
 ### Load Data to CAS by SAS coding
+- Load CSV file to CAS
+```sas
+cas mysess ;
+caslib _all_ assign ;
+
+%let indata=/home/viyademo20/LG_EnSol/hmeq.csv ;
+
+proc cas ;
+table.droptable / caslib="public" name="hmeq" quiet=true;
+	upload path="&indata"               
+	casOut={name="hmeq" caslib="public" promote=true}
+	importOptions={fileType="csv"} ; 
+run ;
+
+proc contents data = public.hmeq ; run ;
+
+cas mysess  terminate ;
+```
 
 - [Six Easy Ways to Import Local SAS Data Sets into CAS (SAS Viya 3.5)](https://communities.sas.com/t5/SAS-Communities-Library/Six-Easy-Ways-to-Import-Local-SAS-Data-Sets-into-CAS-SAS-Viya-3/ta-p/671255)
 
