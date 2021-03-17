@@ -1,0 +1,54 @@
+<project name="01_LG_EnSol_HMEQ_Read" threads="1" pubsub="auto" heartbeat-interval="1">
+  <metadata>
+    <meta id="studioUploadedBy">viyademo01</meta>
+    <meta id="studioUploaded">1615792146566</meta>
+    <meta id="studioModifiedBy">viyademo01</meta>
+    <meta id="studioModified">1615792225771</meta>
+    <meta id="layout">{"cq1":{"HMEQ_IN":{"x":50,"y":50},"HMEQ_IN_PERFOM":{"x":50,"y":175}}}</meta>
+  </metadata>
+  <contqueries>
+    <contquery name="cq1">
+      <windows>
+        <window-source pubsub="true" index="pi_EMPTY" insert-only="true" autogen-key="true" name="HMEQ_IN">
+          <schema>
+            <fields>
+              <field name="BAD" type="int32"/>
+              <field name="LOAN" type="double"/>
+              <field name="MORTDUE" type="double"/>
+              <field name="VALUE" type="double"/>
+              <field name="REASON" type="string"/>
+              <field name="JOB" type="string"/>
+              <field name="YOJ" type="double"/>
+              <field name="DEROG" type="double"/>
+              <field name="DELINQ" type="double"/>
+              <field name="CLAGE" type="double"/>
+              <field name="NINQ" type="double"/>
+              <field name="CLNO" type="double"/>
+              <field name="DEBTINC" type="double"/>
+              <field name="ROW_ID" type="int64" key="true"/>
+            </fields>
+          </schema>
+          <connectors>
+            <connector class="fs" name="HMEQ_IN_FS_Connectore">
+              <properties>
+                <property name="type"><![CDATA[pub]]></property>
+                <property name="header"><![CDATA[1]]></property>
+                <property name="csvfielddelimiter"><![CDATA[,]]></property>
+                <property name="noautogenfield"><![CDATA[true]]></property>
+                <property name="addcsvopcode"><![CDATA[true]]></property>
+                <property name="addcsvflags"><![CDATA[normal]]></property>
+                <property name="repeatcount"><![CDATA[1000]]></property>
+                <property name="fsname"><![CDATA[/home/viyademo01/LG_En_Sol/hmeq.csv]]></property>
+                <property name="fstype"><![CDATA[csv]]></property>
+              </properties>
+            </connector>
+          </connectors>
+        </window-source>
+        <window-counter pubsub="true" index="pi_EMPTY" count-interval="1 seconds" name="HMEQ_IN_PERFOM"/>
+      </windows>
+      <edges>
+        <edge source="HMEQ_IN" target="HMEQ_IN_PERFOM"/>
+      </edges>
+    </contquery>
+  </contqueries>
+</project>
