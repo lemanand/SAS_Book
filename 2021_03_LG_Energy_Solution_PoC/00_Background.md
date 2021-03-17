@@ -68,6 +68,16 @@ Num | Variable | Type | Role | Level
 1 | BAD | Numeric | Target | Binary
 2 | CLAGE | Numeric | Input | Interval
 3 | CLNO | Numeric | Input |Interval
+4 | DEBTINC | Numeric | Input | Interval
+5 | DELINQ | Numeric | Input | Interval
+6 | DEROG | Numeric | Input | Interval
+7 | JOB | Character | Input | Nominal
+8 | LOAN | Numeric | Input | Interval
+10 | MORTDUE | Numeric | Input | Interval
+11 | NINQ | Numeric | Input | Interval
+12 | REASON | Character | Input | Nominal
+13 | VALUE | Numeric | Input | Interval
+14 | YOJ | Numeric | Input | Interval
 
 ---
 
