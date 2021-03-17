@@ -13,7 +13,8 @@
 ---
 
 ### Related Documentation
-- [google](https://www.google.com/)
+- [Model Manager 15.3 Administration - Configuring Access to Analytic Store Model Files](https://go.documentation.sas.com/?cdcId=mdlmgrcdc&cdcVersion=15.3&docsetId=mdlmgrag&docsetTarget=p0t47w2wbv1resn1nifnebiq2qyh.htm&locale=en)
+- [Viya 3.5 Administration - Configuring Access to Analytic Store Model Files](https://go.documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calmodels&docsetTarget=n10916nn7yro46n119nev9sb912c.htm&locale=en)
 
 ---
 
