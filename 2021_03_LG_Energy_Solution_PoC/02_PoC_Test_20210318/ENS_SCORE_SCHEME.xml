@@ -1,0 +1,50 @@
+      <field name="P_Y_11" type="double"/>
+      <field name="P_Y_10" type="double"/>
+      <field name="EM_EVENTPROBABILITY" type="double"/>
+      <field name="EM_PROBABILITY" type="double"/>
+      <field name="I_Y_1" type="string"/>
+      <field name="EM_CLASSIFICATION" type="string"/>
+      <field name="_WARN_" type="string"/>
+      <field name="CELL_ID" type="string"/>
+      <field name="CHS1AVG" type="double"/>
+      <field name="CHS1ENDV" type="double"/>
+      <field name="CHS2AVG" type="double"/>
+      <field name="CHS4CAPA" type="double"/>
+      <field name="CHS5CAPA" type="double"/>
+      <field name="CHS6AVG" type="double"/>
+      <field name="CHS6CAPA" type="double"/>
+      <field name="DISCHS1AVG" type="double"/>
+      <field name="DISCHS1CAPA" type="double"/>
+      <field name="DISPOWER1" type="double"/>
+      <field name="DOCV1" type="double"/>
+      <field name="DOCV2" type="double"/>
+      <field name="DOCV2MV" type="double"/>
+      <field name="DOCV2_LOG" type="double"/>
+      <field name="OCV1" type="double"/>
+      <field name="ONOCV1" type="double"/>
+      <field name="ONOCV2" type="double"/>
+      <field name="ONOCV3" type="double"/>
+      <field name="POWER4" type="double"/>
+      <field name="POWER5" type="double"/>
+      <field name="POWER6" type="double"/>
+      <field name="PREAGING_TIME" type="double"/>
+      <field name="PRE_AVG" type="double"/>
+      <field name="PRE_ENDVOLTCHS" type="double"/>
+      <field name="RTAGING4_TIME" type="double"/>
+      <field name="RTAGING5_TIME" type="double"/>
+      <field name="ROW_ID" type="int64" key="true"/>
+
+
+
+
+<field name="EM_CLASSIFICATION" type="string"/>
+<field name="EM_EVENTPROBABILITY" type="double"/>
+<field name="EM_PROBABILITY" type="double"/>
+<field name="I_Y_1" type="string"/>
+<field name="P_Y_10" type="double"/>
+<field name="P_Y_11" type="double"/>
+<field name="_WARN_" type="string"/>
+
+
+	  
+
