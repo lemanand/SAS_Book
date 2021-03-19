@@ -1,10 +1,10 @@
-<project name="10_TEST_01_SCORE_DATA" threads="1" pubsub="auto" heartbeat-interval="1">
+<project name="10_TEST_01_SCORE_DATA" pubsub="auto" heartbeat-interval="1" threads="30">
   <metadata>
     <meta id="studioUploadedBy">viyademo01</meta>
     <meta id="studioUploaded">1616053736834</meta>
     <meta id="studioModifiedBy">viyademo01</meta>
-    <meta id="studioModified">1616061503809</meta>
-    <meta id="layout">{"cq1":{"TEST_01_IN":{"x":-20,"y":-250},"TEST_01_IN_PERF":{"x":-190,"y":-65},"TEST_01_SCORE":{"x":180,"y":-70},"TEST_01_SCORE_PERF":{"x":65,"y":70}}}</meta>
+    <meta id="studioModified">1616137006140</meta>
+    <meta id="layout">{"cq1":{"TEST_01_IN":{"x":-20,"y":-250},"TEST_01_IN_PERF":{"x":-190,"y":-65},"TEST_01_SCORE":{"x":180,"y":-70},"TEST_01_SCORE_PERF":{"x":65,"y":70},"TEST_01_SCORE_VAL":{"x":330,"y":75}}}</meta>
   </metadata>
   <mas-modules>
     <mas-module module="DS2_ASTORE" language="ds2" func-names="score">
@@ -84,13 +84,6 @@
         <window-calculate pubsub="true" name="TEST_01_SCORE" algorithm="MAS">
           <schema>
             <fields>
-              <field name="P_Y_11" type="double"/>
-              <field name="P_Y_10" type="double"/>
-              <field name="EM_EVENTPROBABILITY" type="double"/>
-              <field name="EM_PROBABILITY" type="double"/>
-              <field name="I_Y_1" type="string"/>
-              <field name="EM_CLASSIFICATION" type="string"/>
-              <field name="_WARN_" type="string"/>
               <field name="CELL_ID" type="string"/>
               <field name="CHS1AVG" type="double"/>
               <field name="CHS1ENDV" type="double"/>
@@ -119,6 +112,13 @@
               <field name="RTAGING4_TIME" type="double"/>
               <field name="RTAGING5_TIME" type="double"/>
               <field name="ROW_ID" type="int64" key="true"/>
+              <field name="P_Y_11" type="double"/>
+              <field name="P_Y_10" type="double"/>
+              <field name="EM_EVENTPROBABILITY" type="double"/>
+              <field name="EM_PROBABILITY" type="double"/>
+              <field name="I_Y_1" type="string"/>
+              <field name="EM_CLASSIFICATION" type="string"/>
+              <field name="_WARN_" type="string"/>
             </fields>
           </schema>
           <mas-map>
@@ -128,7 +128,7 @@
             <connector class="fs" name="TEST_01_SCORE_OUTPUT">
               <properties>
                 <property name="type"><![CDATA[sub]]></property>
-                <property name="header"><![CDATA[true]]></property>
+                <property name="header"><![CDATA[full]]></property>
                 <property name="snapshot"><![CDATA[false]]></property>
                 <property name="fsname"><![CDATA[/home/viyademo01/Viya_Data_26_Poc/TEST_1_SCORE.csv]]></property>
                 <property name="fstype"><![CDATA[csv]]></property>
@@ -137,11 +137,38 @@
           </connectors>
         </window-calculate>
         <window-counter pubsub="true" count-interval="1 seconds" index="pi_EMPTY" name="TEST_01_SCORE_PERF"/>
+        <window-compute pubsub="true" name="TEST_01_SCORE_VAL">
+          <schema>
+            <fields>
+              <field name="ROW_ID" type="int64" key="true"/>
+              <field name="CELL_ID" type="string"/>
+              <field name="P_Y_11" type="double"/>
+              <field name="P_Y_10" type="double"/>
+            </fields>
+          </schema>
+          <output>
+            <field-expr><![CDATA[CELL_ID]]></field-expr>
+            <field-expr><![CDATA[P_Y_11]]></field-expr>
+            <field-expr><![CDATA[P_Y_10]]></field-expr>
+          </output>
+          <connectors>
+            <connector name="TEST_01_SCORE_VAL_FS_CONNECTOR" class="fs">
+              <properties>
+                <property name="type"><![CDATA[sub]]></property>
+                <property name="header"><![CDATA[full]]></property>
+                <property name="snapshot"><![CDATA[false]]></property>
+                <property name="fsname"><![CDATA[/home/viyademo01/Viya_Data_26_Poc/TEST_1_SCORE_VAL_ONLY.csv]]></property>
+                <property name="fstype"><![CDATA[csv]]></property>
+              </properties>
+            </connector>
+          </connectors>
+        </window-compute>
       </windows>
       <edges>
         <edge source="TEST_01_IN" target="TEST_01_IN_PERF"/>
         <edge source="TEST_01_IN" target="TEST_01_SCORE" role="data"/>
         <edge source="TEST_01_SCORE" target="TEST_01_SCORE_PERF"/>
+        <edge source="TEST_01_SCORE" target="TEST_01_SCORE_VAL"/>
       </edges>
     </contquery>
   </contqueries>
