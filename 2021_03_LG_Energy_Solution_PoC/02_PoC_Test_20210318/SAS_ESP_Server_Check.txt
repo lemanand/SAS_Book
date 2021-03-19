@@ -1,0 +1,93 @@
+*****************************
+* 10.34.221.102 lchasaspcb3 *
+*****************************
+
+1. CPU : 32 core, Intel(R) Xeon(R) CPU E5-2640 
+   $ lscpu
+
+2. RAM : 512GB
+   $ free -h
+
+3. HDD : 1.7TB(/sda), 1.5TB(/sdb), 1.5TB(/sdc)
+   $ lsblk
+
+4. Hostname : lchasaspcb3
+   $ hostname -f
+   
+5. IP address : 10.34.221.102 
+   $ hostname -i
+
+6. OS : Red Hat Enterprise Linux Server 7.5 (Maipo)
+   $ cat /etc/*-release
+
+7. Internet Connection : NO!!!
+
+   7.2 High Level : 
+   $ curl -I https://www.google.com/
+	curl: (6) Could not resolve host: www.google.com; Unknown error
+   
+   $ ping -q -w1 -c1 google.com &>/dev/null && echo online || echo offline
+	offline
+
+   $ ping -c 2 google.com
+	ping: google.com: Name or service not known
+
+   7.3 Show active DNS servers :
+   $ cat /etc/resolv.conf
+	search localdomain
+
+   7.4 Check Gateway : 
+   $ ip r
+	default via 10.34.221.1 dev bond1
+	10.34.221.0/24 dev bond1 proto kernel scope link src 10.34.221.102
+	169.254.0.0/16 dev bond1 scope link metric 1017
+	192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1
+
+
+
+
+
+*****************************
+* 10.34.221.104 lchasaspcb4 *
+*****************************
+
+1. CPU : 32 core, Intel(R) Xeon(R) CPU E5-2640 
+   $ lscpu
+
+2. RAM : 512GB
+   $ free -h
+
+3. HDD : 1.7TB(/sda), 1.5TB(/sdb), 1.5TB(/sdc)
+   $ lsblk
+
+4. Hostname : lchasaspcb3
+   $ hostname -f
+   
+5. IP address : 10.34.221.102 
+   $ hostname -i
+
+6. OS : Red Hat Enterprise Linux Server 7.5 (Maipo)
+   $ cat /etc/*-release
+
+7. Internet Connection : NO!!!
+
+   7.2 High Level : 
+   $ curl -I https://www.google.com/
+	curl: (6) Could not resolve host: www.google.com; Unknown error
+   
+   $ ping -q -w1 -c1 google.com &>/dev/null && echo online || echo offline
+	offline
+
+   $ ping -c 2 google.com
+	ping: google.com: Name or service not known
+
+   7.3 Show active DNS servers :
+   $ cat /etc/resolv.conf
+	(Empty File - No any data inside)
+
+   7.4 Check Gateway : 
+   $ ip r
+	default via 10.34.221.1 dev bond1
+	10.34.221.0/24 dev bond1 proto kernel scope link src 10.34.221.102
+	169.254.0.0/16 dev bond1 scope link metric 1017
+	192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1
