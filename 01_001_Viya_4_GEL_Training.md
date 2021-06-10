@@ -38,3 +38,4 @@
 - [[PSGEL278] - Artificial Intelligence with SAS Visual Data Mining and Machine Learning on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1996)
 - [[PSGEL281] - SAS Viya 4: Observability](https://eduvle.sas.com/course/view.php?id=1995)
 - [[PSGEL262] - SAS Viya 4: Advanced Topics in Encryption](https://eduvle.sas.com/course/view.php?id=1991)
+- [[PSGEL256] - SAS Open Model Manager 1.2: Deployment and Administration](https://eduvle.sas.com/course/view.php?id=1834)
