@@ -31,7 +31,7 @@
 - [[PSGEL282] - Designing Chatbots Using SAS Conversation Designer on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1983)
 
 ## Others
-- [[PSGEL270] - SAS Viya: Migration and Promotion](https://eduvle.sas.com/course/view.php?id=1985)
+- [[PSGEL270] - SAS Viya: Migration](https://eduvle.sas.com/course/view.php?id=1985)
 
 ## New Contents on 2021.06.11
 - [[PSGEL272] - Using REST APIs in SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1998)
