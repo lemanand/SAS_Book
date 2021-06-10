@@ -35,3 +35,6 @@
 
 ## New Contents on 2021.06.11
 - [[PSGEL272] - Using REST APIs in SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1998)
+- [[PSGEL278] - Artificial Intelligence with SAS Visual Data Mining and Machine Learning on SAS Viya 4](https://eduvle.sas.com/course/view.php?id=1996)
+- [[PSGEL281] - SAS Viya 4: Observability](https://eduvle.sas.com/course/view.php?id=1995)
+- [[PSGEL262] - SAS Viya 4: Advanced Topics in Encryption](https://eduvle.sas.com/course/view.php?id=1991)
